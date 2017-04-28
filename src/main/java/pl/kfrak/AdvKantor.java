@@ -78,5 +78,6 @@ public class AdvKantor extends JFrame {
                 ResultField.setText("" + amountPLN);
             }
         });
+        p
     }
 }
