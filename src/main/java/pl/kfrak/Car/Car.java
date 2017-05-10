@@ -7,9 +7,19 @@ public class Car {
     private String brand;
     private String model;
     private String manufactureYear;
-    private String power;
+    private double power;
 
-    public Car(String opel, String vectra, String s, String s1) {
+    public Car(String brand, String model, String manufactureYear, double power) {
+
+        this.brand = brand;
+        this.model = model;
+        this.manufactureYear = manufactureYear;
+        this.power = power;
+    }
+
+    @Override
+    public String toString() {
+        return brand + ", " + model + ", " + manufactureYear + ", " + power;
     }
 
     public String getBrand() {
@@ -36,16 +46,11 @@ public class Car {
         this.manufactureYear = manufactureYear;
     }
 
-    public String getPower() {
+    public double getPower() {
         return power;
     }
 
-    public void setPower(String power) {
+    public void setPower(double power) {
         this.power = power;
-    }
-
-    @Override
-    public String toString() {
-        return brand + " " + model + " " + manufactureYear + " " + power;
     }
 }

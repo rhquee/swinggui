@@ -12,8 +12,8 @@ public class CarRepository {
     public CarRepository(){
         cars = new ArrayList<>();
 
-        cars.add(new Car("Opel", "Vectra", "2015", "70"));
-        cars.add(new Car("Opel", "Astra", "2013", "100"));
+        cars.add(new Car("Opel", "Vectra", "2015", 70));
+        cars.add(new Car("Opel", "Astra", "2013", 100));
     }
 
     public List<Car> getCars() {
