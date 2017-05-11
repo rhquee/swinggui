@@ -1,13 +1,9 @@
-package pl.kfrak;
+package pl.kfrak.Window;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-
-import static com.sun.glass.ui.Cursor.setVisible;
 
 /**
  * Created by RENT on 2017-04-28.

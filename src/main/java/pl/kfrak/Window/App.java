@@ -1,4 +1,4 @@
-package pl.kfrak;
+package pl.kfrak.Window;
 
 /**
  * Hello world!

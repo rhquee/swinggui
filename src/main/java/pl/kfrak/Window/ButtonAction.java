@@ -1,4 +1,4 @@
-package pl.kfrak;
+package pl.kfrak.Window;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
